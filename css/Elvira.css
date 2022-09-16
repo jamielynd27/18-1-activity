@@ -1,0 +1,225 @@
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+/* font-family: 'Creepster', cursive; */
+/* font-family: 'Aboreto', cursive; */
+
+
+* {
+	box-sizing: border-box;
+}
+
+body { 
+	font-family: 'Aboreto', cursive;
+	background-color: #828282;
+}
+.container {
+	width: 85vw;
+	max-width: 150%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+header {
+		background: #48995b;
+		position: sticky;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+nav ul li:last-child {
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+nav ul li a {
+    display: block;
+    padding: 1rem 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 300ms ease;
+    font-family: 'Aboreto', cursive;
+    text-transform: uppercase;
+	font-size: 25px;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+.page-section--intro{
+	background-image: url("../images/moonlight.jpg");
+	padding-bottom: 80px;
+}
+h1 {
+	font-family: 'Creepster', cursive;
+	font-size: 90px;
+	text-align: center;
+	color: #fff;
+	
+}
+.blood {
+	color:#fff;
+	text-shadow:
+	4px 4px 1px #300000,
+	4px 6px 1px #400000,
+	4px 8px 1px #500000,
+	4px 10px 1px #600000,
+	4px 12px 1px #700000,
+	4px 14px 1px #800000,
+	4px 16px 1px #900000,
+	4px 18px 1px #A00000,
+	4px 20px 1px #B00000,
+	4px 22px 1px #C00000,
+	4px 24px 1px #D00000,
+	4px 26px 1px #E00000,
+	4px 28px 1px #F00000,
+	4px 30px 1px #FA0000,
+	4px 32px 1px #FB0000,
+	4px 34px 1px #FC0000,
+	4px 36px 1px #FD0000,
+	4px 38px 1px #FE0000,
+	4px 40px 2px #FF0000;
+}
+
+h2 {
+	font-family: 'Creepster', cursive;
+	font-size: 60px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 70px;
+}
+
+
+.avatar {
+	position: relative;
+	display: block;
+	width: 980px;
+	max-width: 100%;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	}
+
+p {
+	font-size: 30px;
+	text-align: center;
+	word-spacing: 8px;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.page-section--stats{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.page-section--stats
+.flex {
+	display: flex;
+	flex-direction: row-reverse;
+	}
+.flex-item--content{
+	background-image: url("../images/Cobwebimage.jpg");
+	flex-grow: 1;
+}
+.stat-list {
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+border: 1px solid #000000;
+}
+
+.mystery {
+	position: left;
+	display: block;
+	width: 500px;
+	max-width: 80%;
+	margin: 0 auto;
+	padding-left: 100px;
+	margin-left: 50px;
+}
+
+.page-section--powers{
+	text-align: center;
+	padding-top: 25px;
+	}
+
+.page-section--powers
+.flex {
+	display: wrap;
+	flex-direction: row;
+}
+
+
+.page-section--colors {
+	background-image: url("../images/spiderweb.jpg");
+	padding-bottom: 350	px;
+}
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background: #f4f0f0;
+	border: 1px solid rgb(8, 2, 2);
+}
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+}
+.swatch-sample--one {
+	background-color: #0d0f16;
+}
+.swatch-sample--two {
+	background-color: #828282;
+}
+.swatch-sample--three {
+	background-color: #d9d9d9;
+}
+.swatch-sample--four {
+	background-color: #FE0000;
+}
+
+.page-section--quote {
+    background-image: url('../images/QuoteScreen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	padding-bottom: 75px;
+}
+
+.author {
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
