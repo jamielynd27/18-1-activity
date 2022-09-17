@@ -145,23 +145,27 @@ border: 1px solid #000000;
 	position: left;
 	display: block;
 	width: 500px;
-	max-width: 80%;
+	max-width: 100%;
 	margin: 0 auto;
-	padding-left: 100px;
+	padding-left: 70px;
 	margin-left: 50px;
+	padding-top: 15%;
 }
 
 .page-section--powers{
 	text-align: center;
 	padding-top: 25px;
+	padding-left: 10%;
 	}
 
-.page-section--powers
-.flex {
+.page-section--powers .flex {
 	display: wrap;
 	flex-direction: row;
 }
 
+.powers-layout{
+ display: flex;
+}
 
 .page-section--colors {
 	background-image: url("../images/spiderweb.jpg");
